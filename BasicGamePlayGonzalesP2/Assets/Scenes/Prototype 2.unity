@@ -233,6 +233,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Cow_White (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_Size.y
+      value: 27.034945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_Center.y
+      value: 14.444181
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3449789620495878167, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.2
@@ -887,6 +899,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5705351226934742084, guid: 55728e70424d19e41a6dbec28d1e66b9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7599166036031067020, guid: 55728e70424d19e41a6dbec28d1e66b9, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -907,6 +923,18 @@ PrefabInstance:
     - target: {fileID: 1617371502637440851, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_Name
       value: Animal_Cow_White
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_Size.y
+      value: 26.959066
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_Center.y
+      value: 14.482136
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3449789620495878167, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_LocalPosition.x
