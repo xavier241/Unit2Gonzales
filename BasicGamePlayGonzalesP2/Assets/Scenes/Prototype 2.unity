@@ -216,11 +216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &306893949 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-  m_PrefabInstance: {fileID: 931196204}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &408499144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232,18 +227,6 @@ PrefabInstance:
     - target: {fileID: 1617371502637440851, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_Name
       value: Animal_Cow_White (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_Size.y
-      value: 27.034945
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_Center.y
-      value: 14.444181
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3449789620495878167, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_LocalPosition.x
@@ -565,67 +548,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ccd582a22a167549b9d70c73f6a531c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalInput: 0
+  horizontalInput: 10
+  verticalInput: 10
   speed: 10
   xRange: 10
-  projectilePrefab: {fileID: 306893949}
---- !u!1001 &931196204
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_Name
-      value: Food_Pizza_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
+  zRangeTop: 15
+  zRangeBottom: 0
+  projectilePrefab: {fileID: 1064583570645826213, guid: 116392742379fbf48b450f74b02820a5, type: 3}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,10 +828,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5705351226934742084, guid: 55728e70424d19e41a6dbec28d1e66b9, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7599166036031067020, guid: 55728e70424d19e41a6dbec28d1e66b9, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -923,18 +848,6 @@ PrefabInstance:
     - target: {fileID: 1617371502637440851, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_Name
       value: Animal_Cow_White
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_Size.y
-      value: 26.959066
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_Center.y
-      value: 14.482136
-      objectReference: {fileID: 0}
-    - target: {fileID: 2753739029960284875, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3449789620495878167, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
       propertyPath: m_LocalPosition.x
@@ -976,7 +889,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5734096931246400903, guid: 1548e103591602f44ae52afd3c7ef344, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1053,7 +967,6 @@ SceneRoots:
   - {fileID: 170076735}
   - {fileID: 992285706}
   - {fileID: 1126691499}
-  - {fileID: 931196204}
   - {fileID: 1878740959}
   - {fileID: 2079082242}
   - {fileID: 408499144}
