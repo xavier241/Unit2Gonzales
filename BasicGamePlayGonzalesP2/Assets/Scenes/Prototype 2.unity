@@ -555,6 +555,19 @@ MonoBehaviour:
   zRangeTop: 15
   zRangeBottom: 0
   projectilePrefab: {fileID: 1064583570645826213, guid: 116392742379fbf48b450f74b02820a5, type: 3}
+--- !u!114 &840028335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840028331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf648ac79bbc8a4aafd3c46eb4024bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 1
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +661,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 840028332}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 840028335}
   m_SourcePrefab: {fileID: 100100000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
 --- !u!1 &1359200545
 GameObject:
